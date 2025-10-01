@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn start:*)",
+      "Bash(yarn upgrade:*)",
+      "Bash(yarn install)",
+      "Bash(cat:*)",
+      "Bash(yarn add:*)",
+      "Bash(yarn info:*)",
+      "Bash(yarn install:*)",
+      "Bash(curl -k https://localhost:9000/fg-root-config.js)",
+      "WebFetch(domain:generator.jspm.io)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
